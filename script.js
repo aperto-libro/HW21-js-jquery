@@ -10,7 +10,7 @@ $('h2.test').css('color', 'red');
 $('p + p').css('color', 'red');
 
 // Все < li >, которые следуют сразу за < li > с классом www.
-$('li.www ~ li').css('color', 'red');
+$('li.www + li').css('color', 'red');
 
 // Все < i > внутри < h2 >
 $('h2 i').css('color', 'red');
